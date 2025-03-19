@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гэндальф - Добро пожаловать</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<body>
+<!--    меню   -->
+    <header>
+        <nav class="nav-menu">
+            <img class="logo-image" src="./images/logo.png" alt="Логотип ГЭНДАЛЬФ"/>
+            <ul class="nav-links">
+                <li><a class="a-link" href="#">Профориентация</a></li>
+                <li><a class="a-link" href="#">Выбрать вакансию</a></li>
+                <li><a class="a-link" href="#growth">Карьера в ГЭНДАЛЬФ</a></li>
+                <li><a class="a-link" href="#cta">Стажерство</a></li>
+                <li><a class="a-link" href="#">Отзывы</a></li>
+            </ul>
+            <a class="a-button-link" href="#interview">Запись на собеседование</a>
+            <div class="menu-icons">
+                <a href="#"><img src="./images/search-icon.png" alt="Search" class="menu-icon search-icon"></a>
+                <a href="#"><img src="./images/shop-icon.png" alt="Cart" class="menu-icon cart-icon"></a>
+                <img src="./images/mobile-logo.png" class="icon-mobile"/>
+                <a href="#"><img src="./images/profile-icon.svg" alt="Profile" class="menu-icon profile-icon"></a>
+                <a href="#"><img src="./images/icon-burger.png" alt="Menu" class="menu-icon burger-icon"></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="welcome-section">
+        <div class="welcome-content">
+            <h1>Добро пожаловать <br> в ГЭНДАЛЬФ!</h1>
+            <p>
+                Мы готовы поделиться секретом, почему любим компанию, в которой работаем. Если тебе будут близки наши ценности и идеи, то смело записывайся на собеседование!
+            </p>
+            <div class="welcome-buttons">
+                <a href="#" class="btn btn-green">Почему мы</a>
+                <a href="#interview" class="btn btn-white">Записаться на собеседование</a>
+            </div>
+        </div>
+    </section>
+
+<!--блок "О том, чем мы занимаемся"-->
+    <section class="about-section">
+        <div class="about-content">
+            <h2 class="about-title">О том, чем мы занимаемся</h2>
+            <p class="about-text">
+                ГЭНДАЛЬФ – один из крупнейших игроков на рынке информационных технологий, занимающий 4 место среди 7000 партнеров фирмы «1С». У нас есть представительства в 15 городах России, а нашими услугами пользуются 23 000 организаций-клиентов, в числе которых «Базэл Аэро», «Ростсельмаш», UTG. Аэропорт Кольцово и многие другие.
+            </p>
+            <p class="about-text">
+                Мы тщательно подходим к выбору сотрудников, которые становятся частью команды профессионалов.
+            </p>
+            <p class="about-text">
+                У нас работают специалисты разных областей: программисты, маркетологи, менеджеры, копирайтеры, методисты и другие,
+                чей карьерный рост не ограничен привычными рамками.
+            </p>
+            <div class="about-buttons">
+                <a href="#" class="btn-about btn-blue">Узнать больше</a>
+                <a href="#interview" class="btn-about btn-outline">Записаться на собеседование</a>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="./images/woman-working.png" alt="Woman working">
+        </div>
+    </section>
+
+
+<!--слайдер-->
+    <section class="slider-container">
+        <h2 class="slider-title">Наши ценности скажут о нас больше:</h2>
+        <div class="slides">
+            <div class="slide">
+                <img src="images/img1.png" alt="Быть командой"/>
+                <h3 class="slide-h3">Быть командой</h3>
+                <p class="slide-p">Готовность вносить вклад в общие цели команды и достигать их.</p>
+            </div>
+            <div class="slide">
+                <img src="images/img2.png" alt="Побеждать и не сдаваться"/>
+                <h3 class="slide-h3">Побеждать и не сдаваться</h3>
+                <p class="slide-p">Быть ориентированным на результат, настойчивым и не сдаваться перед трудностями.</p>
+            </div>
+            <div class="slide">
+                <img src="images/img3.png" alt="Заботиться о клиентах"/>
+                <h3 class="slide-h3">Заботиться о клиентах</h3>
+                <p class="slide-p">Выполнять обещания и интересоваться потребностями своих клиентов.</p>
+            </div>
+            <div class="slide">
+                <img src="images/img4.png" alt="Быть увлечённым и ответственным"/>
+                <h3 class="slide-h3">Быть увлечённым и ответственным</h3>
+                <p class="slide-p">Вкладывать душу в то, что делаешь и получать от работы удовольствие.</p>
+            </div>
+            <div class="slide">
+                <img src="images/img5.png" alt="Быть увлечённым и ответственным"/>
+                <h3 class="slide-h3">Развиваться</h3>
+                <p class="slide-p">Постоянно расти личностно и профессионально для достижения поставленных целей.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- секция "Инфраструктура для твоего развития и роста" -->
+    <section id="growth" class="growth-section">
+        <h2 class="growth-title">Инфраструктура для твоего развития и роста</h2>
+        <div class="growth-flex">
+            <div class="growth-content">
+                <p class="growth-text">
+                    Мы создаем платформу для профессионального развития каждого сотрудника. Главная цель – дать возможность учиться, работать и получать удовольствие от каждой успешной задачи.
+                </p>
+                <p class="growth-text">
+                    О возможностях личностного роста в ГЭНДАЛЬФ расскажет руководитель Департамента персонала и карьеры Татьяна Арсенович.
+                </p>
+            </div>
+            <div class="growth-image">
+                <img src="./images/growth-img1.png" alt="Woman at table">
+                <button class="growth-button"><img class="play-button" src="./images/replay.png" alt="Play button"></button>
+            </div>
+        </div>
+    </section>
+
+<!-- Слайдер "живая лента" -->
+    <section class="live-feed-slider">
+        <h2 class="live-feed-title">Живая лента</h2>
+        <div class="live-feed-slider-container">
+            <button class="slider-prev" aria-label="Следующая группа карточек">
+                <img src="images/arrow.svg" alt=""/>
+            </button>
+            <div class="live-feed-slides">
+                <article class="live-feed-slide">
+                    <img src="./images/live-feed-img1.png" alt="Экономия на бумаге и управляем филиалы">
+                    <h3 class="live-feed-h3">Экономим на бумаге и угадываем фильмы: дайджест видео марта 2022 года</h3>
+                    <a href="#" class="live-feed-btn">Перейти к статье</a>
+                </article>
+                <article class="live-feed-slide">
+                    <img src="./images/live-feed-img2.png" alt="Изменения 2022 года">
+                    <h3 class="live-feed-h3">Изменения 2022 года</h3>
+                    <a href="#" class="live-feed-btn">Перейти к статье</a>
+                </article>
+                <article class="live-feed-slide">
+                    <img src="./images/live-feed-img3.png" alt="Почему стоит работать программистом в 2022 году">
+                    <h3 class="live-feed-h3">Почему стоит работать программистом в 2022 году</h3>
+                    <a href="#" class="live-feed-btn">Перейти к статье</a>
+                </article>
+                <article class="live-feed-slide">
+                    <img src="./images/live-feed-img4.png" alt="Автоматизированный учет и путевые листы">
+                    <h3 class="live-feed-h3">Автоматизированный учет и путевые листы</h3>
+                    <a href="#" class="live-feed-btn">Перейти к статье</a>
+                </article>
+                <article class="live-feed-slide">
+                    <img src="./images/live-feed-img1.png" alt="Экономия на бумаге и управляем филиалы">
+                    <h3 class="live-feed-h3">Экономия на бумаге и управляем филиалы: дайджест видео марта 2022 года</h3>
+                    <a href="#" class="live-feed-btn">Перейти к статье</a>
+                </article>
+                <article class="live-feed-slide">
+                    <img src="./images/live-feed-img2.png" alt="Изменения 2022 года">
+                    <h3 class="live-feed-h3">Изменения 2022 года</h3>
+                    <a href="#" class="live-feed-btn">Перейти к статье</a>
+                </article>
+                <article class="live-feed-slide">
+                    <img src="./images/live-feed-img3.png" alt="Почему стоит работать программистом в 2022 году">
+                    <h3 class="live-feed-h3">Почему стоит работать программистом в 2022 году</h3>
+                    <a href="#" class="live-feed-btn">Перейти к статье</a>
+                </article>
+                <article class="live-feed-slide">
+                    <img src="./images/live-feed-img4.png" alt="Автоматизированный учет и путевые листы">
+                    <h3 class="live-feed-h3">Автоматизированный учет и путевые листы</h3>
+                    <a href="#" class="live-feed-btn">Перейти к статье</a>
+                </article>
+            </div>
+            <button class="slider-next" aria-label="Следующая группа карточек">
+                <img src="images/arrow.svg" alt=""/>
+            </button>
+        </div>
+    </section>
+
+<!--блок о практике-->
+    <section id="cta" class="cta-section">
+        <div class="cta-content">
+            <h2 class="cta-title">Ты студент и хочешь устроиться на практику?</h2>
+            <a href="#interview" class="cta-button">Оставить заявку</a>
+        </div>
+    </section>
+
+<!--faq блок-->
+    <section class="faq-section">
+        <div class="faq-list">
+            <h2 class="faq-title">Ответы на вопросы</h2>
+            <div class="faq-block">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon"><img src="./images/arrow-blue.png" alt=""/></span>
+                        <h3 class="faq-h3">На что нужно обратить внимание на собеседовании?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-p">
+                            Кроме умения представлять себя, грамотно  разговаривать и опрятного внешнего вида, стоит обратить внимание еще на  пару моментов. Они не очевидны, но очень эффективны.
+                        </p>
+                        <ul>
+                            <li>
+                                <span class="faq-span">Сохраняйте спокойствие.</span> Конечно, собеседование - это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх - выйдите ненадолго воды, прикройте стол к полу, а лучше, поймите: ничего ужасного произойти не может.
+                            </li>
+                            <li>
+                                <span class="faq-span">Внимание к самопрезентации.</span> Если собеседование - пьеса, вы - ее главный герой. Подготовьте рассказ о себе заранее, оттачивая на важных навыках, и опыте, почему это важно для данной работы. Все приклады вам уверенности в себе.
+                            </li>
+                            <li>
+                                <span class="faq-span">Каверзные вопросы - это норма.</span> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает лично качества, знайте - правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет делать самокритика и знание в своей профессии.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon"><img src="./images/arrow-blue.png" alt=""/></span>
+                        <h3 class="faq-h3">Как правильно составить резюме?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            ...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon"><img src="./images/arrow-blue.png" alt=""/></span>
+                        <h3 class="faq-h3">Возможно ли устроиться без опыта?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            ...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon"><img src="./images/arrow-blue.png" alt=""/></span>
+                        <h3 class="faq-h3">Ошибка на собеседовании. Чего нужно избегать?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faq-img">
+            <img src="./images/img-6.png" alt=""/>
+        </div>
+    </section>
+
+<!--блок "записаться на собеседование"-->
+    <footer id="interview" class="interview-form-section">
+        <div class="interview-form-container">
+            <h2 class="interview-form-title">Записаться на собеседование</h2>
+            <form id="interview-form" class="interview-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Как к вам обращаться?" required>
+                    <span class="validation-icon"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                    <span class="validation-icon"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <span class="validation-icon"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="position" name="position" placeholder="Желаемая должность">
+                </div>
+
+                <div class="form-group radio-group">
+                    <p>Выберите категорию занятости</p>
+                    <label>
+                        <input type="radio" name="employment" value="office" required>
+                        <p>Работа в офисе</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="employment" value="remote">
+                        <p>Стажировка</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="employment" value="remote-work">
+                        <p>Удалённая работа</p>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="questions" name="questions" placeholder="Ваши вопросы"></textarea>
+                </div>
+
+                <div class="form-group file-upload">
+                    <label for="resume" class="file-upload-label">
+                        <span>
+                            Прикрепить резюме
+                            <img src="./images/clip-icon.svg" alt="Clip icon" class="file-upload-icon">
+                        </span>
+                        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                    </label>
+                    <button type="submit" class="submit-button-desktop">Записаться</button>
+                    <button type="submit" class="submit-button-mobile">Оставить заявку</button>
+                </div>
+
+
+            </form>
+        </div>
+    </footer>
+
+    <script src="./script.js"/>
+</body>
+</html>

@@ -27,6 +27,8 @@ header {
     background-color: #00B7EC;
     position: fixed;
     z-index: 40;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -39,6 +41,8 @@ header {
 }
 
 .nav-menu {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -47,6 +51,8 @@ header {
 }
 
 .nav-links {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     gap: 30px;
 }
@@ -384,6 +390,7 @@ header {
 .slides {
     display: flex;
     transition: transform 0.6s ease-in-out;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
     margin-left: 30px;
 }
 
@@ -441,6 +448,7 @@ header {
     padding: 60px 40px;
     background: linear-gradient(163.35deg, rgba(40, 228, 115, 0.16) 11.27%, rgba(70, 205, 22, 0.14) 35.82%, rgba(39, 221, 209, 0.39) 57.4%, rgba(5, 176, 213, 0.32) 82.7%);
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     border-radius: 10px;
 }
 .growth-flex{
@@ -495,6 +503,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     width: 60px;
     height: 60px;
     cursor: pointer;
@@ -605,6 +614,7 @@ header {
     z-index: 30;
     top: 50%;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     background: none;
     border: none;
     cursor: pointer;
@@ -619,7 +629,8 @@ header {
 }
 
 .slider-next img{
-    rotate: 180deg;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
 }
 
 .slider-prev:disabled,
@@ -722,7 +733,8 @@ header {
 .faq-section {
     padding: 60px 20px;
     background: linear-gradient(163.35deg, rgba(40, 228, 115, 0.16) 11.27%, rgba(70, 205, 22, 0.14) 35.82%, rgba(39, 221, 209, 0.39) 57.4%, rgba(5, 176, 213, 0.32) 82.7%);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     position: relative;
     overflow: hidden;
     display: flex;
@@ -775,6 +787,7 @@ header {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease, padding 0.5s ease;
+    -webkit-transition: max-height 0.5s ease, padding 0.5s ease;
     padding: 0 40px;
 }
 
